@@ -1,4 +1,4 @@
 resources:
-    - configMapList.yaml
+    - configMap.yaml
 transformers:
     - transformer.yaml
