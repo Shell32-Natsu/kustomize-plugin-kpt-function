@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run -i --rm -e KUSTOMIZE_PLUGIN_CONFIG_STRING="$KUSTOMIZE_PLUGIN_CONFIG_STRING" --name my-app demotransformer:latest $@
